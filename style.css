@@ -4,9 +4,10 @@ body {
     font-family:serif;
     border-color:#432818;
     border: 2px solid #641d1b;
+    border-radius: 8px;
     text-align:center;
-    margin-left: 20px;
-    margin-right: 20px
+    margin-left: 10px;
+    margin-right: 10px
 }
 h1 {
     font-family:"lucinda handwriting", cursive;
@@ -29,7 +30,9 @@ p, ul, ol {
     border-width: 5px;
     text-align: left;
     background-color: #e8ac65;
-    font-size: 15px
+    font-size: 15px;
+    margin-left: 5px;
+    margin-right: 5px
 }
 ol {
     text-align: center;
