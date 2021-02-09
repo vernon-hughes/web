@@ -3,6 +3,9 @@ body {
     color:#99582a;
     font-family:serif;
     border-color:#432818;
+    border: 2px solid #641d1b;
+    margin-left: 450px;
+    margin-right: 450px;
     text-align:center;
 }
 h1 {
