@@ -1,1 +1,39 @@
-h
+body {
+    background-color:#cc9354;
+    color:#99582a;
+    font-family:serif;
+    border-color:#432818;
+    text-align:center;
+}
+h1 {
+    font-family:"lucinda handwriting", cursive;
+    color:#641d1b;
+    text-shadow: 2px 2px #fcf5c7;
+    border: 2px solid #641d1b;
+    margin-left: 450px;
+    margin-right: 450px;
+    font-size: 70px
+}
+h3 {
+    font-family:"papyrus", fantasy;
+    color:#bd632f;
+    text-shadow: 1px 1px #fcf5c7;
+    font-size: 30px
+}
+a:link {color:#99382b}
+a:visited {color:#ffe6a7}
+a:hover {color:#fbcb5c}
+p, ul, ol {
+    border: 2px solid #c08552;
+    border-radius: 8px;
+    border-width: 5px;
+    text-align: left;
+    background-color: #e8ac65;
+    font-size: 15px
+}
+ol {
+    text-align: center;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    font-size: 20px
+}
