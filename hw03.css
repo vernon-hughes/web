@@ -25,9 +25,7 @@ h3 {
 }
 a:link, a:visited {color:#99382b}
 a:hover {color:#fbcb5c}
-.header {
-    display: flex;
-}
+.header {display: flex;}
 .header a {
     font-family:"papyrus", fantasy;
     color:#a3432f;
@@ -42,9 +40,7 @@ a:hover {color:#fbcb5c}
     background-color: #edc07b;
     color: #f6cb0c
 }
-p {
-    font-size: 17px;
-}
+p {font-size: 17px;}
 .welcome {
     line-height: 2;
     padding: 85px
@@ -61,15 +57,9 @@ p {
     line-height: 2;
     padding: inherit;
 }
-table {
-    border-collapse: collapse;
-}
-tr:hover {
-    background-color: #edc07b;
-}
-th, td {
-  border-bottom: 1px solid #c08552;
-}
+table {border-collapse: collapse;}
+tr:hover {background-color: #edc07b;}
+th, td {border-bottom: 1px solid #c08552;}
 .fpage {
     margin-left: 5px;
     margin-right: 5px;
@@ -99,12 +89,10 @@ span {
     padding: 20px
 }
 .perlmann {
-    float: top;
     padding: 20px;
     text-align: center
 }
 .pics {
-    float: top;
     margin-top: 40px;
     text-align: center
 }
