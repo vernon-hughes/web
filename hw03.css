@@ -1,0 +1,121 @@
+body {
+    background-color:#cc9354;
+    color:#99582a;
+    font-family:serif;
+    border: 2px solid #641d1b;
+    border-radius: 8px;
+    text-align:center;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 1;
+}
+h1 {
+    font-family:"lucinda handwriting", cursive;
+    color:#641d1b;
+    text-shadow: 2px 2px #fcf5c7;
+    font-size: 70px;
+    text-decoration: underline;
+    line-height: 0.2
+}
+h3 {
+    font-family:"papyrus", fantasy;
+    color:#a3432f;
+    text-shadow: 1px 1px #fcf5c7;
+    font-size: 30px
+}
+a:link, a:visited {color:#99382b}
+a:hover {color:#fbcb5c}
+.header {
+    display: flex;
+}
+.header a {
+    font-family:"papyrus", fantasy;
+    color:#a3432f;
+    text-shadow: 1px 1px #fcf5c7;
+    background-color: #e8ac65;
+    font-size: 35px;
+    padding: 10px 110.5px;
+    line-height: 2.8;
+    text-decoration: none;
+}
+.header a:hover {
+    background-color: #edc07b;
+    color: #f6cb0c
+}
+p {
+    font-size: 17px;
+}
+.welcome {
+    line-height: 2;
+    padding: 85px
+}
+.struc {
+    line-height: 2;
+    padding: 60px
+}
+.comps {
+    line-height: 2;
+    padding: 10px
+}
+.techniques {
+    line-height: 2;
+    padding: inherit;
+}
+table {
+    border-collapse: collapse;
+}
+tr:hover {
+    background-color: #edc07b;
+}
+th, td {
+  border-bottom: 1px solid #c08552;
+}
+.fpage {
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: #e8ac65;
+    border: 2px solid #c08552;
+    border-radius: 8px;
+    border-width: 5px;
+    text-align: left
+}
+span {
+    font-family:cursive;
+    font-size: 55px;
+    line-height: 0.05
+}
+.footer {
+    margin-top: 20px;
+    font-style: italic;
+    font-size: 15px;
+    text-align: center
+}
+.violin {
+    float: left;
+    padding: 20px
+}
+.anatomy {
+    float: right;
+    padding: 20px
+}
+.perlmann {
+    float: top;
+    padding: 20px;
+    text-align: center
+}
+.pics {
+    float: top;
+    margin-top: 40px;
+    text-align: center
+}
+.header > div {flex: 1}
+@media screen and (max-width: 1320px) {
+    .header {
+        display: block;
+        padding: 0px 60px
+    }
+    .header a {
+        padding: 10px 60px;
+        margin: 2px;
+    }
+}
